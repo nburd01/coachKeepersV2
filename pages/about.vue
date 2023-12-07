@@ -14,6 +14,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+h1{
+    color: $primary;
+}
 </style>

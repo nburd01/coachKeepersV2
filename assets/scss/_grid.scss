@@ -1,0 +1,106 @@
+@use "sass:math";
+$grid-columns: 12;
+
+#main {
+  margin-bottom: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 1em auto;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: $primary;
+  &__title {
+    color: $black;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: $white;
+  background-color: $black;
+  justify-content: flex-start;
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      margin: 0;
+      .fa-solid fa-list-ul {
+        margin-left: 0;
+        background-color: greenyellow;
+      }
+    }
+  }
+}
+
+.section {
+  width: 100%;
+  background-color: $primary;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    &__title {
+      color: $black;
+    }
+   
+  }
+  footer {
+    display: flex;
+    justify-content: baseline;
+    align-items: end;
+    height: 10em;
+    padding-bottom: 3em;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5em;
+    img {
+      height: 2em;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        margin: 0;
+        .fa-solid fa-list-ul {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

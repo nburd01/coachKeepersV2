@@ -10,9 +10,3 @@
 <script setup lang="ts">
 
 </script>
-
-<style lang="scss">
-button{
-    color: $primary
-}
-</style>

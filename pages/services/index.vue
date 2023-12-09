@@ -13,9 +13,14 @@
        layout:'services'
     })
     //fetch products
+<<<<<<< Updated upstream
     const {data:products} = await useFetch('https://fakestoreapi.com/products')
 </script>
 
 <style lang="scss" scoped>
 
 </style>
+=======
+    const {data:services} = await useFetch('https://fakestoreapi.com/products')
+</script>
+>>>>>>> Stashed changes

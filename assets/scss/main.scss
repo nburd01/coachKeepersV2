@@ -1,4 +1,12 @@
+@import "_variables";
 
+//base & layout
+@import "_base";
+@import "_grid";
 
-@import "./__variables";
-@import "./components/__components";
+//colours
+@import '_fonts';
+
+@import "_cards";
+@import "_button";
+@import "_spinner";

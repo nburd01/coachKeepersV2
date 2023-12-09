@@ -9,6 +9,7 @@
 </template>
 
 <script setup>
+    //layout
     definePageMeta({
        layout:'services'
     })

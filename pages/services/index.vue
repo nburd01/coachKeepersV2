@@ -2,8 +2,8 @@
     <div>
         <h2>Services</h2>
         <div
-            v-for="(p, index) in products" :key="index">
-            <NuxtLink :to="`/services/${p.id}`">{{ p.title }}</NuxtLink>
+            v-for="(s, index) in services" :key="index">
+            <NuxtLink :to="`/services/${s.id}`">{{ s.title }}</NuxtLink>
         </div>
     </div>
 </template>
@@ -12,15 +12,10 @@
     definePageMeta({
        layout:'services'
     })
-    //fetch products
-<<<<<<< Updated upstream
-    const {data:products} = await useFetch('https://fakestoreapi.com/products')
+    //fetch services
+    const {data:services} = await useFetch('https://fakestoreapi.com/products')
 </script>
 
 <style lang="scss" scoped>
 
 </style>
-=======
-    const {data:services} = await useFetch('https://fakestoreapi.com/products')
-</script>
->>>>>>> Stashed changes

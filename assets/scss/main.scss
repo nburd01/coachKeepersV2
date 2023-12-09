@@ -1,2 +1,28 @@
+//colors
 $primary: rgb(204, 122, 21);
+$secondary: rgb(204, 39, 21);
+$error: rgb(21, 58, 204);
+$infos: rgb(204, 21, 204);
+//spacing
+$base-padding:0.75rem;
+$base-margin:0.75rem;
+//border
+$base-border-thickness:0.75rem;
+$base-border-radius:20px;
+
+button{
+    color: $primary;
+    border: 0;
+    background-color: $secondary;
+    border-radius: $base-border-radius;
+    padding: $base-padding;
+}
+
+.notification{
+    color: $secondary;
+    border-color: $error;
+    border-style:solid;
+    margin:$base-margin;
+    padding: $base-padding;
+}
 

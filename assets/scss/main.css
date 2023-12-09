@@ -1,0 +1,15 @@
+button {
+  color: rgb(204, 122, 21);
+  border: 0;
+  background-color: rgb(204, 39, 21);
+  border-radius: 20px;
+  padding: 0.75rem;
+}
+
+.notification {
+  color: rgb(204, 39, 21);
+  border-color: rgb(21, 58, 204);
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+}/*# sourceMappingURL=main.css.map */

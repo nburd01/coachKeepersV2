@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Services</h2>
+        <h2>Méthodologie</h2>
         <div
             v-for="(s, index) in services" :key="index">
             <NuxtLink :to="`/services/${s.id}`">{{ s.title }}</NuxtLink>

@@ -9,6 +9,18 @@
   margin: $base-margin;  
 }
 
+html{
+  margin:0;
+  padding:0;
+  background-color: rgba(72, 0, 255, 0.733);
+  width: 100%;
+
+}
+
+.nuxt{
+  background-color: aqua;
+}
+
 a{
   color: $black;
 }
@@ -21,8 +33,23 @@ html, body, nav, footer, header, main {
   header{
     background-color: $white;
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a{
+    display: flex;
     justify-content: center;
     align-items: center;
+  }
+  ul{
+    display: flex;
+    flex-direction: row
   }
 }
 

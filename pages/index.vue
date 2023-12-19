@@ -2,8 +2,16 @@
     <div>
 
 <h2>Home</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates non unde vel placeat doloribus, vitae molestias quis officia. Corporis!</p>
-<button>Test btn</button>
+<section>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates non unde vel placeat doloribus, vitae molestias quis officia. Corporis!</p>
+    </div>
+    <div class="container large">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates non unde vel placeat doloribus, vitae molestias quis officia. Corporis!</p>
+    </div>
+    <button>Test btn</button>
+</section>
     </div>
 </template>
 

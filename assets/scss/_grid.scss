@@ -5,11 +5,15 @@ $grid-columns: 12;
   margin-bottom: 0px;
 }
 
+section{
+  // width: 90%;
+  background-color: bisque;
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 1200px;
+  width: 80%;
   margin: 1em auto;
   padding: 1em;
   box-sizing: border-box;
@@ -17,6 +21,11 @@ $grid-columns: 12;
   &__title {
     color: $black;
   }
+}
+
+.large{
+  background-color: $green;
+  width: 90%;
 }
 
 .row {
@@ -62,11 +71,15 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 80%;
     &__title {
       color: $black;
     }
-   
+  }
+
+  .large{
+    background-color: $green;
+    width: 100%;
   }
   footer {
     display: flex;

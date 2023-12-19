@@ -5,8 +5,10 @@
                 <NuxtLink to="/">CoachKeepers</NuxtLink>
                 <ul>
                     <li><NuxtLink to="/">Home</NuxtLink></li>
-                    <li><NuxtLink to="/about">A propos</NuxtLink></li>
-                    <li><NuxtLink to="/services">Services</NuxtLink></li>
+                    <li><NuxtLink to="/about">Qui suis-je</NuxtLink></li>
+                    <li><NuxtLink to="/services">Méthodologie</NuxtLink></li>
+                    <li><NuxtLink to="/offres">Coachkeepers et vous</NuxtLink></li>
+                    <li><NuxtLink to="/contact">Contact</NuxtLink></li>
                 </ul>
             </nav>
         </header>
@@ -21,8 +23,8 @@
                 <NuxtLink to="/">CoachKeepers</NuxtLink>
                 <ul>
                     <li><NuxtLink to="/">Home</NuxtLink></li>
-                    <li><NuxtLink to="/about">A propos</NuxtLink></li>
-                    <li><NuxtLink to="/services">Services</NuxtLink></li>
+                    <li><NuxtLink to="/about">Qui suis-je</NuxtLink></li>
+                    <li><NuxtLink to="/services">Méthodologie</NuxtLink></li>
                 </ul>
             </nav>
         </footer>

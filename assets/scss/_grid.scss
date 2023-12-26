@@ -6,7 +6,7 @@ $grid-columns: 12;
 }
 
 section{
-  // width: 90%;
+// margin: $base-margin;
   background-color: bisque;
 }
 
@@ -76,6 +76,11 @@ footer {
       color: $black;
     }
   }
+
+  section{
+    // margin: $base-margin;
+      background-color: rgb(196, 231, 255);
+    }
 
   .large{
     background-color: $green;

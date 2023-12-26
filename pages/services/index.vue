@@ -4,6 +4,7 @@
         <div
             v-for="(s, index) in services" :key="index">
             <NuxtLink :to="`/services/${s.id}`">{{ s.title }}</NuxtLink>
+            <ServiceCard :service="s"/>
         </div>
     </div>
 </template>

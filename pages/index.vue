@@ -8,7 +8,7 @@
 
     
     <div class="container">
-        <font-awesome-icon :icon="['fas', 'user-secret']" />
+        <font-awesome-icon icon="fa-brands fa-twitter-square" />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates non unde vel placeat doloribus, vitae molestias quis officia. Corporis!</p>
     </div>
     <div class="container large">

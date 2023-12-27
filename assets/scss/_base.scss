@@ -1,69 +1,73 @@
 //FONTS
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
 //
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: $base-margin;  
+  margin: $base-margin;
 }
 
-html{
-  margin:0;
-  padding:0;
+html {
+  margin: 0;
+  padding: 0;
   background-color: rgba(72, 0, 255, 0.733);
   width: 100%;
-
+  font-size: 16px;
 }
 
-.nuxt{
+.nuxt {
   background-color: aqua;
 }
 
-a{
+a {
   color: $black;
 }
 
-html, body, nav, footer, header, main {
-  font-family: "Roboto", sans-serif;
+html,
+body,
+nav,
+footer,
+header,
+main {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: $black;
-  header{
+  header {
     background-color: $white;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
   }
 }
 
-nav{
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  a{
+  a {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  ul{
+  ul {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
   }
 }
 
-.home{      
+.home {
   position: absolute;
   left: 10px;
 }
-main{
+main {
   height: fit-content;
 }
 
-body{
+body {
   overflow-x: hidden;
-  z-index:20;
+  z-index: 20;
   background-position: top center;
 }
 

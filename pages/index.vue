@@ -61,10 +61,18 @@
       </div>
       <div class="container">
         <div class="grid">
-          <div class="item-a">Header</div>
-          <div class="item-b">Main</div>
-          <div class="item-c">Sidebar</div>
-          <div class="item-d">Footer</div>
+          <div class="item-a">
+            <img src="assets/images/coachkeepers_img2.jpg" alt="" />
+          </div>
+          <div class="item-b">
+            <img src="assets/images/coachkeepers_img3.png" alt="" />
+          </div>
+          <div class="item-c">
+            <img src="assets/images/coachkeepers_img4.jpg" alt="" />
+          </div>
+          <div class="item-d">
+            <img src="assets/images/coachkeepers_img5.jpg" alt="" />
+          </div>
         </div>
       </div>
     </section>

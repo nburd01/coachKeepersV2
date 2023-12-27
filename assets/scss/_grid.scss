@@ -1,6 +1,34 @@
 @use "sass:math";
 $grid-columns: 12;
 
+.item-a {
+  grid-area: header;
+  background-color: aqua;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+}
+
+.grid {
+  display: grid;
+  justify-content: stretch;
+  align-content: stretch;
+  height: 50px;
+  // background-color: aqua;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+
 #main {
   margin-bottom: 0px;
 }
@@ -27,11 +55,6 @@ section {
   background-color: $green;
   width: 90%;
 }
-
-// .row {
-//   display: flex;
-//   flex-flow: row wrap;
-// }
 
 .row {
   display: flex;
@@ -74,12 +97,55 @@ footer {
   padding: 0;
 }
 
+@include xs {
+  @for $i from 1 through $grid-columns {
+    .col-#{$i}-xs {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns);
+    }
+  }
+}
+@include sm {
+  @for $i from 1 through $grid-columns {
+    .col-#{$i}-sm {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns);
+    }
+  }
+}
+@include md {
+  @for $i from 1 through $grid-columns {
+    .col-#{$i}-md {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns);
+    }
+  }
+}
+@include lg {
+  @for $i from 1 through $grid-columns {
+    .col-#{$i}-lg {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns);
+    }
+  }
+}
+@include xl {
+  @for $i from 1 through $grid-columns {
+    .col-#{$i}-xl {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns);
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 80%;
-    &__title {
-      color: $black;
-    }
   }
 
   section {
@@ -131,8 +197,5 @@ footer {
 @media screen and (max-width: 720px) {
   .container {
     width: 90%;
-    &__title {
-      color: $black;
-    }
   }
 }

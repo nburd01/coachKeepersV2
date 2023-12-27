@@ -51,7 +51,22 @@
     </section>
     <h1>Pics</h1>
     <section>
-      <div class="container"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12-xs col-5-md col-3-xl">Card</div>
+          <div class="col-12-xs col-5-md col-3-xl">Card</div>
+          <div class="col-12-xs col-5-md col-3-xl">Card</div>
+          <div class="col-12-xs col-5-md col-3-xl">Card</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="grid">
+          <div class="item-a">Header</div>
+          <div class="item-b">Main</div>
+          <div class="item-c">Sidebar</div>
+          <div class="item-d">Footer</div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

@@ -49,29 +49,61 @@
         <p class="readmore">Lire plus</p>
       </div>
     </section>
-    <h1>Pics</h1>
     <section>
+      <h1>Cards</h1>
       <div class="container">
         <div class="row">
-          <div class="col-12-xs col-5-md col-3-xl">Card</div>
-          <div class="col-12-xs col-5-md col-3-xl">Card</div>
-          <div class="col-12-xs col-5-md col-3-xl">Card</div>
-          <div class="col-12-xs col-5-md col-3-xl">Card</div>
+          <div class="col-12-xs col-5-md col-3-xl">
+            <div class="card">
+              <div class="title">title</div>
+              <div class="subtitle">subtitle</div>
+              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-12-xs col-5-md col-3-xl">
+            <div class="card">
+              <div class="title">title</div>
+              <div class="subtitle">subtitle</div>
+              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-12-xs col-5-md col-3-xl">
+            <div class="card">
+              <div class="title">title</div>
+              <div class="subtitle">subtitle</div>
+              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-12-xs col-5-md col-3-xl">
+            <div class="card">
+              <div class="title">title</div>
+              <div class="subtitle">subtitle</div>
+              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="container">
-        <div class="grid">
-          <div class="item-a">
+    </section>
+    <h1>Pics</h1>
+    <section>
+      <div class="container large">
+        <div class="gridA">
+          <div class="item item-a">
             <img src="assets/images/coachkeepers_img2.jpg" alt="" />
           </div>
-          <div class="item-b">
+          <div class="item item-b">
             <img src="assets/images/coachkeepers_img3.png" alt="" />
           </div>
-          <div class="item-c">
+          <div class="item item-c">
             <img src="assets/images/coachkeepers_img4.jpg" alt="" />
           </div>
-          <div class="item-d">
+          <div class="item item-d">
             <img src="assets/images/coachkeepers_img5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="gridB">
+          <div class="item item-a">
+            <img src="assets/images/coachkeepers_img2.jpg" alt="" />
           </div>
         </div>
       </div>

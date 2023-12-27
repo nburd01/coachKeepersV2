@@ -78,9 +78,9 @@
     }
   }
 }
-.row{
+.row {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
 }
 
 @media screen and (min-width: 1200px) {
@@ -92,5 +92,9 @@
       border-radius: math.div($base-border-radius, 10);
       width: 20em;
     }
+  }
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
   }
 }

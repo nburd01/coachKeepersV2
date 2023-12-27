@@ -5,15 +5,15 @@ $grid-columns: 12;
   margin-bottom: 0px;
 }
 
-section{
-// margin: $base-margin;
+section {
+  // margin: $base-margin;
   background-color: bisque;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: 1em auto;
   padding: 1em;
   box-sizing: border-box;
@@ -23,10 +23,15 @@ section{
   }
 }
 
-.large{
+.large {
   background-color: $green;
   width: 90%;
 }
+
+// .row {
+//   display: flex;
+//   flex-flow: row wrap;
+// }
 
 .row {
   display: flex;
@@ -77,12 +82,12 @@ footer {
     }
   }
 
-  section{
+  section {
     // margin: $base-margin;
-      background-color: rgb(196, 231, 255);
-    }
+    background-color: rgb(196, 231, 255);
+  }
 
-  .large{
+  .large {
     background-color: $green;
     width: 100%;
   }
@@ -119,6 +124,15 @@ footer {
           margin-left: 0;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 90%;
+    &__title {
+      color: $black;
     }
   }
 }

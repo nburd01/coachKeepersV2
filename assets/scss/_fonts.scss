@@ -5,16 +5,17 @@
   display: flex;
   justify-content: center;
   text-transform: uppercase;
-  line-height: 80px;
 }
 
 .title-main {
   @include h1;
   font-size: 128px;
+  line-height: 100px;
 }
 .title-secondary {
   @include h1;
   font-size: 64px;
+  line-height: 80px;
 }
 
 h2 {

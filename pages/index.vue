@@ -128,11 +128,21 @@
       <div class="container">
         <div class="offers">
           <div class="offers__titleAndNumber">
-            <div class="offers__titleAndNumber__title"></div>
-            <div class="offers__titleAndNumber__number"></div>
+            <div class="offers__titleAndNumber__title">Individuelle</div>
+            <div class="offers__titleAndNumber__number">1</div>
           </div>
-          <div class="offers__description"></div>
-          <div class="offers__image"></div>
+          <div class="offers__descriptionAndImg">
+            <div class="offers__descriptionAndImg__description">
+              CoachKeepers propose des services d’audit, sur mesure pour les
+              structures souhaitant gagner en expertise et créer de la valeur
+              dans le domaine des gardiens de but.
+            </div>
+            <img
+              src="assets/images/Coachkeepers_img3.png"
+              alt=""
+              class="offers__descriptionAndImg__image"
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -1,18 +1,20 @@
 .offers {
+  margin: 1em 0;
   background-color: #6f6f6f3f;
   width: 100%;
   height: 10em;
   display: flex;
   flex-direction: column;
-
   margin: 0;
   padding: 0;
   &__titleAndNumber {
     width: 100%;
+    padding: 1em;
     height: inherit;
     display: flex;
     flex-direction: column;
     &__title {
+      padding: 0;
       height: 100%;
       width: 100%;
       background-color: red;
@@ -26,25 +28,33 @@
   &__description {
     background-color: pink;
     width: -webkit-fill-available;
+    width: inherit;
   }
   &__image {
     background-color: blue;
     height: inherit;
-    width: 100%;
+    // width: 100%;
   }
 }
 
 @media screen and (min-width: 720px) {
   .offers {
-    background-color: black;
     flex-direction: row;
+    margin: 1em 0;
 
     &__titleAndNumber {
-      width: 40%;
+      //   width: 40%;
       height: inherit;
       display: flex;
       flex-direction: column;
       &__title {
+        font-size: 30px;
+        font-style: light;
+        font-variant: light;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        color: black;
         height: 70%;
         width: 100%;
         background-color: red;
@@ -53,16 +63,23 @@
         background-color: green;
         height: 100%;
         width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
       }
     }
-    &__description {
-      background-color: pink;
-      width: -webkit-fill-available;
-    }
-    &__image {
-      background-color: blue;
-      height: inherit;
-      width: 30%;
+    &__descriptionAndImg {
+      display: flex;
+      flex-direction: row;
+      &__description {
+        background-color: pink;
+        width: -webkit-fill-available;
+        margin: 1em;
+      }
+      &__image {
+        background-color: blue;
+        height: inherit;
+        width: 30%;
+      }
     }
   }
 }

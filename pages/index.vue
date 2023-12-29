@@ -125,7 +125,16 @@
     </section>
     <h1>Offers</h1>
     <section>
-      <div class="container"></div>
+      <div class="container">
+        <div class="offers">
+          <div class="offers__titleAndNumber">
+            <div class="offers__titleAndNumber__title"></div>
+            <div class="offers__titleAndNumber__number"></div>
+          </div>
+          <div class="offers__description"></div>
+          <div class="offers__image"></div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

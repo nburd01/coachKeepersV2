@@ -55,30 +55,45 @@
         <div class="row">
           <div class="col-12-xs col-5-md col-3-xl">
             <div class="card">
-              <div class="title">title</div>
-              <div class="subtitle">subtitle</div>
-              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+              <div class="card__card-content">
+                <div class="card__card-content__title">Développer</div>
+                <p class="card__card-content__subtitle">
+                  Le potentiel de vos gardiens de but
+                </p>
+              </div>
+              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
           <div class="col-12-xs col-5-md col-3-xl">
             <div class="card">
-              <div class="title">title</div>
-              <div class="subtitle">subtitle</div>
-              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+              <div class="card__card-content">
+                <div class="card__card-content__title">Aider</div>
+                <p class="card__card-content__subtitle">
+                  Votre pôle gardien de but à devenir plus performant
+                </p>
+              </div>
+              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
           <div class="col-12-xs col-5-md col-3-xl">
             <div class="card">
-              <div class="title">title</div>
-              <div class="subtitle">subtitle</div>
-              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+              <div class="card__card-content">
+                <div class="card__card-content__title">Contribuer</div>
+                <p class="card__card-content__subtitle">
+                  A la reconnaissance du poste d’entraîneur des gardiens au sein
+                  du staff
+                </p>
+              </div>
+              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
           <div class="col-12-xs col-5-md col-3-xl">
             <div class="card">
-              <div class="title">title</div>
-              <div class="subtitle">subtitle</div>
-              <img src="assets/images/Coachkeepers_img6.jpg" alt="" />
+              <div class="card__card-content">
+                <div class="card__card-content__title">Apporter</div>
+                <p class="card__card-content__subtitle">Mon expérience</p>
+              </div>
+              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
         </div>

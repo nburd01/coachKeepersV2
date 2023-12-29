@@ -1,18 +1,35 @@
 @use "sass:math";
 
-.cards {
-  opacity: 1;
-  &__card {
-    flex-direction: inherit;
+// .cards {
+//   opacity: 1;
+.card {
+  flex-direction: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+  margin: $base-margin auto;
+  place-items: center;
+  // @include box-shadow;
+  // border-radius: math.div($base-border-radius, 1);
+  width: 100%;
+  height: 20vh;
+  // background-color: $white;
+  background-image: url(assets/images/Coachkeepers_img6.jpg);
+  background-size: cover;
+
+  &__card-content {
+    color: $primary;
+    padding: 1.5em;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.546);
     display: flex;
     flex-direction: column;
-    border: none;
-    padding: 0;
-    margin: $base-margin auto;
-    @include box-shadow;
-    border-radius: math.div($base-border-radius, 1);
-    width: 100%;
-    background-color: $white;
+    width: inherit;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 
     &__title {
       font-size: $font-size-xl;
@@ -23,61 +40,62 @@
       align-items: center;
       font-size: $base-font-size;
       width: auto;
+      color: beige;
     }
     &__subtitle {
       font-weight: 300;
       overflow: hidden;
-      white-space: nowrap;
       text-overflow: ellipsis;
       transition: transform 0.3s ease;
     }
+  }
 
-    &__body {
-      font-size: $font-size-sm;
-      a {
-        text-decoration: underline;
-      }
-    }
-    &__icons {
-      width: 10%;
-      display: flex;
-      justify-content: center;
-    }
-    &__tag {
-      position: absolute;
-      right: 2em;
-      top: 1em;
-      padding: 0.5em;
-      color: $greenfont;
-      background-color: $green;
-      max-width: inherit;
-    }
-    &__img {
-      display: block;
-      width: 100%;
-      height: 13em;
-      overflow: hidden;
-      margin: 0;
-      object-fit: cover;
-      position: relative;
-      border-radius: 20px 20px 0 0;
-
-      img {
-        margin: 0;
-        object-fit: cover;
-        width: 100%;
-        height: 23.4em;
-        max-height: -webkit-fill-available;
-      }
-    }
-    &__content {
-      display: flex;
-      justify-content: space-between;
-      margin-left: 0;
-      padding-left: 0;
+  &__body {
+    font-size: $font-size-sm;
+    a {
+      text-decoration: underline;
     }
   }
+  &__icons {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  &__tag {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    padding: 0.5em;
+    color: $greenfont;
+    background-color: $green;
+    max-width: inherit;
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    height: 13em;
+    overflow: hidden;
+    margin: 0;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+
+    img {
+      margin: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 23.4em;
+      max-height: -webkit-fill-available;
+    }
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
+// }
 .row {
   display: flex;
   flex-direction: wrap;

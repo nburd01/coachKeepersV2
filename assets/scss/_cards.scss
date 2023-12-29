@@ -1,7 +1,7 @@
 @use "sass:math";
-
-// .cards {
-//   opacity: 1;
+.cards {
+  margin: 1em auto;
+}
 .card {
   flex-direction: inherit;
   display: flex;
@@ -11,11 +11,8 @@
   border: none;
   margin: $base-margin auto;
   place-items: center;
-  // @include box-shadow;
-  // border-radius: math.div($base-border-radius, 1);
   width: 100%;
   height: 20vh;
-  // background-color: $white;
   background-image: url(assets/images/Coachkeepers_img6.jpg);
   background-size: cover;
 
@@ -103,16 +100,13 @@
 
 @media screen and (min-width: 1200px) {
   .cards {
-    display: flex;
-    .card {
-      background-color: $primary;
-      border: $base-border-thickness solid #fff;
-      border-radius: math.div($base-border-radius, 10);
-      width: 20em;
-    }
+    margin: 1em auto;
+  }
+  .card {
+    background-color: $primary;
+    width: 20em;
   }
   .row {
     display: flex;
-    flex-wrap: nowrap;
   }
 }

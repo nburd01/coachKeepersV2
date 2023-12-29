@@ -53,7 +53,7 @@
       <h1>Cards</h1>
       <div class="container">
         <div class="row">
-          <div class="col-12-xs col-5-md col-3-xl">
+          <div class="cards col-12-xs col-5-md col-3-xl">
             <div class="card">
               <div class="card__card-content">
                 <div class="card__card-content__title">Développer</div>
@@ -64,7 +64,7 @@
               <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
-          <div class="col-12-xs col-5-md col-3-xl">
+          <div class="cards col-12-xs col-5-md col-3-xl">
             <div class="card">
               <div class="card__card-content">
                 <div class="card__card-content__title">Aider</div>
@@ -75,7 +75,7 @@
               <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
-          <div class="col-12-xs col-5-md col-3-xl">
+          <div class="cards col-12-xs col-5-md col-3-xl">
             <div class="card">
               <div class="card__card-content">
                 <div class="card__card-content__title">Contribuer</div>
@@ -87,7 +87,7 @@
               <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
             </div>
           </div>
-          <div class="col-12-xs col-5-md col-3-xl">
+          <div class="cards col-12-xs col-5-md col-3-xl">
             <div class="card">
               <div class="card__card-content">
                 <div class="card__card-content__title">Apporter</div>
@@ -122,6 +122,10 @@
           </div>
         </div>
       </div>
+    </section>
+    <h1>Offers</h1>
+    <section>
+      <div class="container"></div>
     </section>
   </div>
 </template>

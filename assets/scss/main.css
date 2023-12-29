@@ -832,6 +832,10 @@ pre {
   text-transform: uppercase;
 }
 
+.cards {
+  margin: 1em auto;
+}
+
 .card {
   flex-direction: inherit;
   display: flex;
@@ -928,17 +932,14 @@ pre {
 
 @media screen and (min-width: 1200px) {
   .cards {
-    display: flex;
+    margin: 1em auto;
   }
-  .cards .card {
+  .card {
     background-color: #f3f3f3;
-    border: 0.3em solid #fff;
-    border-radius: 2px;
     width: 20em;
   }
   .row {
     display: flex;
-    flex-wrap: nowrap;
   }
 }
 .btn {

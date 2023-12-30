@@ -16,6 +16,7 @@
       <div class="container mobile">
         <nav>
           <ul>
+            <font-awesome-icon :icon="['fas', 'user-secret']" />
             <NuxtLink to="/">CoachKeepers</NuxtLink>
             <button class="menuBtn">Menu</button>
           </ul>

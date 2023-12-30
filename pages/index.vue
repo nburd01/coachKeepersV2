@@ -8,8 +8,7 @@
         <h1 class="title-secondary title-info">
           une methodologie de travail fruit de 20 ans d’experience
         </h1>
-        <div class="bubble">test</div>
-
+        <BubbleElement />
         <div class="contactUs">
           <h2 class="contact">Nous contacter</h2>
           <font-awesome-icon

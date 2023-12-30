@@ -34,6 +34,7 @@ h2 {
   text-decoration: underline;
   display: flex;
   justify-content: center;
+  padding-right: 1em;
 }
 
 h3 {
@@ -89,4 +90,15 @@ pre {
 .menuBtn {
   @include contact;
   font-size: 18px;
+}
+
+.rotate45 {
+  &__large {
+    transform: rotate(-45deg);
+    font-size: 48px;
+  }
+  &__normal {
+    transform: rotate(-45deg);
+    font-size: 18px;
+  }
 }

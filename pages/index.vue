@@ -8,8 +8,13 @@
         <h1 class="title-secondary title-info">
           une methodologie de travail fruit de 20 ans d’experience
         </h1>
-
-        <h2 class="contact">Nous contacter</h2>
+        <div class="contactUs">
+          <h2 class="contact">Nous contacter</h2>
+          <font-awesome-icon
+            class="rotate45__large"
+            :icon="['fas', 'arrow-right']"
+          />
+        </div>
         <h2>Nos objectifs</h2>
         <h3>Menu</h3>
         <blockquote>
@@ -23,7 +28,13 @@
           quidem illum illo tempora assumenda facere voluptatibus eius iusto
           quo? Iste!
         </p>
-        <p class="readmore">Lire plus</p>
+        <div class="readMoreDiv">
+          <p class="readmore">Lire plus</p>
+          <font-awesome-icon
+            class="rotate45__normal"
+            :icon="['fas', 'arrow-right']"
+          />
+        </div>
       </div>
       <div class="container large">
         <h1 class="title-main title-purple">coachkeepers</h1>

@@ -1,7 +1,6 @@
 <template>
   <div>
     <h2>Home</h2>
-
     <h1>Font sizes</h1>
     <section>
       <div class="container">

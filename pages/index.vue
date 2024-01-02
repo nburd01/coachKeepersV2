@@ -15,6 +15,17 @@
             le domaine des gardiens de but.
           </div>
         </div>
+        <div class="offerDiv">
+          <div class="offerDiv__offerPic"></div>
+          <div class="offerDiv__offerText">
+            <blockquote>
+              CoachKeepers propose des services d’audit, sur mesure pour les
+              structures souhaitant gagner en expertise et créer de la valeur
+              dans le domaine des gardiens de but.
+            </blockquote>
+            <ReadMore class="offerDiv__readMoreDiv" />
+          </div>
+        </div>
         <h1 class="title-main title-purple">coachkeepers</h1>
         <h1 class="title-secondary title-info">
           une methodologie de travail fruit de 20 ans d’experience

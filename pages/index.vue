@@ -1,49 +1,27 @@
 <template>
   <div>
-    <h2>Home</h2>
-    <h1>Font sizes</h1>
+    <section>
+      <HeaderFirst />
+    </section>
     <section>
       <div class="container">
-        <h1 class="title-main title-purple">coachkeepers</h1>
-        <h1 class="title-secondary title-info">
-          une methodologie de travail fruit de 20 ans d’experience
-        </h1>
-        <BubbleElement />
-        <div class="contactUs">
-          <h2 class="contact">Nous contacter</h2>
-          <font-awesome-icon
-            class="rotate45__large"
-            :icon="['fas', 'arrow-right']"
-          />
+        <div class="promiseDiv">
+          <div class="bubbleDiv">
+            <BubbleElement />
+          </div>
+          <div class="promise">
+            CoachKeepers propose des services d’audit, sur mesure pour les
+            structures souhaitant gagner en expertise et créer de la valeur dans
+            le domaine des gardiens de but.
+          </div>
         </div>
-        <h2>Nos objectifs</h2>
-        <h3>Menu</h3>
-        <blockquote>
-          CoachKeepers propose des services d’audit, sur mesure pour les
-          structures souhaitant gagner en expertise et créer de la valeur dans
-          le domaine des gardiens de but.
-        </blockquote>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at,
-          molestias nemo animi dolorem dignissimos, omnis iure alias saepe
-          quidem illum illo tempora assumenda facere voluptatibus eius iusto
-          quo? Iste!
-        </p>
-        <div class="readMoreDiv">
-          <p class="readmore">Lire plus</p>
-          <font-awesome-icon
-            class="rotate45__normal"
-            :icon="['fas', 'arrow-right']"
-          />
-        </div>
-      </div>
-      <div class="container large">
         <h1 class="title-main title-purple">coachkeepers</h1>
         <h1 class="title-secondary title-info">
           une methodologie de travail fruit de 20 ans d’experience
         </h1>
 
-        <h2 class="contact">Nous contacter</h2>
+        <BubbleElement />
+        <ContactUs />
         <h2>Nos objectifs</h2>
         <h3>Menu</h3>
         <blockquote>
@@ -57,112 +35,19 @@
           quidem illum illo tempora assumenda facere voluptatibus eius iusto
           quo? Iste!
         </p>
-        <p class="readmore">Lire plus</p>
-        <p class="number">1</p>
+        <ReadMore />
       </div>
     </section>
     <section>
       <h1>Cards</h1>
-      <div class="container">
-        <div class="row">
-          <div class="cards col-12-xs col-5-md col-3-xl">
-            <div class="card">
-              <div class="card__card-content">
-                <div class="card__card-content__title">Développer</div>
-                <p class="card__card-content__subtitle">
-                  Le potentiel de vos gardiens de but
-                </p>
-              </div>
-              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
-            </div>
-          </div>
-          <div class="cards col-12-xs col-5-md col-3-xl">
-            <div class="card">
-              <div class="card__card-content">
-                <div class="card__card-content__title">Aider</div>
-                <p class="card__card-content__subtitle">
-                  Votre pôle gardien de but à devenir plus performant
-                </p>
-              </div>
-              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
-            </div>
-          </div>
-          <div class="cards col-12-xs col-5-md col-3-xl">
-            <div class="card">
-              <div class="card__card-content">
-                <div class="card__card-content__title">Contribuer</div>
-                <p class="card__card-content__subtitle">
-                  A la reconnaissance du poste d’entraîneur des gardiens au sein
-                  du staff
-                </p>
-              </div>
-              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
-            </div>
-          </div>
-          <div class="cards col-12-xs col-5-md col-3-xl">
-            <div class="card">
-              <div class="card__card-content">
-                <div class="card__card-content__title">Apporter</div>
-                <p class="card__card-content__subtitle">Mon expérience</p>
-              </div>
-              <!-- <img src="assets/images/Coachkeepers_img6.jpg" alt="" /> -->
-            </div>
-          </div>
-        </div>
-      </div>
+      <CardElements />
     </section>
     <h1>Pics</h1>
-    <section>
-      <div class="container large">
-        <div class="gridA">
-          <div class="item item-a">
-            <img src="assets/images/coachkeepers_img2.jpg" alt="" />
-          </div>
-          <div class="item item-b">
-            <img src="assets/images/coachkeepers_img3.png" alt="" />
-          </div>
-          <div class="item item-c">
-            <img src="assets/images/coachkeepers_img4.jpg" alt="" />
-          </div>
-          <div class="item item-d">
-            <img src="assets/images/coachkeepers_img5.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="gridB">
-        <div class="item item-a">
-          <img src="assets/images/coachkeepers_img2.jpg" alt="" />
-        </div>
-      </div>
-    </section>
+    <PicsCollage />
+    <FullPagePic />
     <h1>offer</h1>
     <section>
-      <div class="container">
-        <div class="offer">
-          <div class="a">
-            <div class="offer__titleAndNumber">
-              <div class="offer__titleAndNumber__title">Individuelle</div>
-              <div class="number offer__titleAndNumber__number">01</div>
-            </div>
-          </div>
-          <div class="b">
-            <blockquote class="offer__descriptionAndImg__description">
-              CoachKeepers propose des services d’audit, sur mesure pour les
-              structures souhaitant gagner en expertise et créer de la valeur
-              dans le domaine des gardiens de but.
-            </blockquote>
-          </div>
-          <div class="c">
-            <img
-              src="assets/images/Coachkeepers_img3.png"
-              alt=""
-              class="offer__descriptionAndImg__image"
-            />
-          </div>
-        </div>
-      </div>
+      <OfferElement />
     </section>
   </div>
 </template>

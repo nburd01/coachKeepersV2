@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <div class="container desktop">
+      <div class="container large desktop">
         <nav>
           <ul>
             <li><NuxtLink to="/about">Qui suis-je</NuxtLink></li>
@@ -13,7 +13,7 @@
           </ul>
         </nav>
       </div>
-      <div class="container mobile">
+      <div class="container large mobile">
         <nav>
           <ul>
             <NuxtLink to="/">CoachKeepers</NuxtLink>
@@ -38,6 +38,6 @@ h2 {
   color: greenyellow;
 }
 .router-link-exact-active {
-  color: pink;
+  color: purple;
 }
 </style>

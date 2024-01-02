@@ -37,10 +37,11 @@ main {
   padding: 0;
   color: $black;
   header {
-    background-color: $white;
+    width: -webkit-fill-available;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
   }
 }
 

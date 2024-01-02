@@ -12,14 +12,20 @@ nav {
 }
 @media screen and (min-width: 720px) {
   nav {
+    text-transform: uppercase;
+    text-decoration: underline;
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: white;
     ul {
       list-style: none;
       display: flex;
       justify-content: space-around;
       width: 100%;
+      a {
+        color: white;
+      }
     }
   }
 }

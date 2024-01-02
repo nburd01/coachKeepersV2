@@ -79,7 +79,12 @@ $grid-columns: 12;
 }
 
 section {
+  height: fit-content;
   background-color: bisque;
+  margin: 4em 0;
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .container {

@@ -27,6 +27,8 @@
     <div>
       <slot />
     </div>
+    <ContactUsDiv />
+    <Footer />
   </div>
 </template>
 

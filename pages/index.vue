@@ -81,8 +81,8 @@
     </section>
     <PicsCollage />
     <!-- <FullPagePic /> -->
-    <ContactUsDiv />
     <!-- <h1>offer</h1> -->
+
     <!-- <section>
       <OfferElement />
     </section>
@@ -106,6 +106,7 @@
         molestias nemo animi dolorem dignissimos, omnis iure alias saepe quidem
         illum illo tempora assumenda facere voluptatibus eius iusto quo? Iste!
       </p>
+      <div class="menuTitles">Lorem ipsum dolor sit amet consectetur.</div>
       <ReadMore />
     </section> -->
   </div>

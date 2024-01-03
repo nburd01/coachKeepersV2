@@ -103,6 +103,13 @@ pre {
   font-size: 18px;
 }
 
+.menuTitles {
+  color: grey;
+  font-style: normal;
+  font-size: 18px;
+  padding-left: 1em;
+}
+
 .rotate45 {
   &__large {
     transform: rotate(-45deg);

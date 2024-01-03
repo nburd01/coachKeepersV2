@@ -1,0 +1,118 @@
+footer {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: flex-start;
+  .containerDiv {
+    width: 100%;
+  }
+  .topDiv {
+    // background-color: greenyellow;
+    display: flex;
+    width: 100%;
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: auto auto 3em auto;
+
+      li {
+        margin: 0;
+        .fa-solid fa-list-ul {
+          margin-left: 0;
+          //   background-color: greenyellow;
+        }
+      }
+    }
+    &__menuDiv {
+      width: 100%;
+      li {
+        a {
+          font-size: 48px;
+          margin: 0.25em;
+        }
+      }
+    }
+
+    &__flagsDiv {
+      display: flex;
+      height: 40px;
+      width: 100%;
+      width: 2em;
+      height: 2em;
+      margin-left: 0.75em;
+      img {
+        margin-right: 0.5em;
+      }
+    }
+  }
+  .infoDiv {
+    // background-color: yellow;
+    margin: 3em auto;
+
+    width: 100%;
+    &__contactDetails {
+      padding-top: 1em;
+    }
+
+    &__adress {
+      margin: 0.25em;
+    }
+    &__socials {
+    }
+    &__contactDetails {
+      &__tel {
+      }
+      &__email {
+      }
+    }
+  }
+}
+@media screen and (min-width: 720px) {
+  footer {
+    .container {
+      flex-direction: row;
+    }
+    margin-top: 5em;
+    color: black;
+
+    flex-direction: column;
+    .topDiv {
+      height: 35vh;
+      width: auto;
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 2em auto;
+      }
+      .infoDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-self: end;
+        margin: 0;
+      }
+
+      &__contactDetails {
+        padding-top: 1em;
+      }
+    }
+    .imgDiv {
+      height: auto;
+      flex-direction: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border: none;
+      margin: 0 10em 0 0em;
+      place-items: center;
+      width: 20%;
+      background-image: url(assets/images/Coachkeepers_img3.png);
+      background-size: cover;
+    }
+  }
+}

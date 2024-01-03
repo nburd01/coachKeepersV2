@@ -4,6 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .promise {
+      margin-top: 1em;
+    }
   }
   &__block {
     display: flex;
@@ -21,8 +24,9 @@
       flex-direction: row;
       &__1 {
         background-image: url(assets/images/Coachkeepers_img6.jpg);
-        width: 50%;
+        width: 40%;
         height: 50vh;
+        margin: auto;
       }
       &__2 {
         background-image: url(assets/images/Coachkeepers_img5.jpg);

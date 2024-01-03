@@ -142,13 +142,6 @@ footer {
   }
 }
 
-.section {
-  width: 100%;
-  // background-color: $primary;
-  margin: 0;
-  padding: 0;
-}
-
 @include xs {
   @for $i from 1 through $grid-columns {
     .col-#{$i}-xs {
@@ -205,6 +198,7 @@ footer {
   }
 
   section {
+    margin: 9em 0;
     .center {
       display: flex;
       justify-content: center;

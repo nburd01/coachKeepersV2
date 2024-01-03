@@ -1,0 +1,50 @@
+.aboutUsDiv {
+  &__promiseDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    &__offerPic {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 50vh;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: row;
+      &__1 {
+        background-image: url(assets/images/Coachkeepers_img6.jpg);
+        width: 50%;
+        height: 50vh;
+      }
+      &__2 {
+        background-image: url(assets/images/Coachkeepers_img5.jpg);
+        width: 50%;
+        height: 50vh;
+      }
+    }
+    &__offerText {
+      &__offerDiv {
+        &__readMoreDiv {
+          padding-left: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .aboutUsDiv {
+    &__block {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

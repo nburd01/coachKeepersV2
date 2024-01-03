@@ -1,5 +1,4 @@
 .bannerDiv {
-  height: 40vh;
   width: 100%;
   background-image: url(assets/images/Coachkeepers_img6.jpg);
   background-size: cover;
@@ -10,12 +9,16 @@
     align-items: center;
     color: white;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: hsla(0, 0%, 0%, 0.5);
     &__container {
+      width: 80%;
       flex-direction: column;
       display: flex;
       align-items: center;
+      .promise {
+        margin-bottom: 0;
+      }
     }
   }
 }

@@ -11,14 +11,14 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: rgba(72, 0, 255, 0.733);
+  // background-color: rgb(196, 231, 255);
   width: 100%;
   font-size: 16px;
   word-break: break-word;
 }
 
 .nuxt {
-  background-color: aqua;
+  // background-color: aqua;
 }
 
 a {
@@ -32,6 +32,7 @@ footer,
 header,
 font,
 main {
+  // height: auto;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;

@@ -24,6 +24,7 @@ h2 {
   font-variant: bold;
   font-weight: 700;
   line-height: 80px;
+  text-align: center;
 }
 @mixin contact {
   font-size: 48px;
@@ -35,6 +36,7 @@ h2 {
   display: flex;
   justify-content: center;
   padding-right: 1em;
+  text-align: center;
 }
 
 h3 {

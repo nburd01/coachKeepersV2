@@ -35,6 +35,9 @@
       }
     }
     &__offerText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       &__offerDiv {
         &__readMoreDiv {
           padding-left: 40px;

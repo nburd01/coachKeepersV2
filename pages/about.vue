@@ -5,11 +5,10 @@
 </template>
 
 <script>
-export default {
-  setup() {
-    return {};
-  },
-};
+//layout
+definePageMeta({
+  layout: "services",
+});
 </script>
 
 <style lang="scss">

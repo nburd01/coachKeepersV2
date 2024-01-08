@@ -1,11 +1,18 @@
 <template>
   <div>
-    <div class="bubble">taefest</div>
+    <div class="bubble">{{ title }}</div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    title: {
+      type: String,
+      default: "Default Title",
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

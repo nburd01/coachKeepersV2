@@ -14,17 +14,11 @@
   </div>
 </template>
 
-<style scoped>
-body {
-  background-color: darkblue;
-}
-h2 {
-  color: greenyellow;
-}
+<style lang="scss" scoped>
 .router-link-exact-active {
-  color: pink;
+  color: hotpink;
 }
-nav a {
-  color: aqua;
+a {
+  color: green;
 }
 </style>

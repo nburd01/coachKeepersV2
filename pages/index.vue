@@ -7,7 +7,7 @@
       <div class="container small">
         <div class="promiseDiv">
           <div class="bubbleDiv">
-            <BubbleElement />
+            <BubbleElement title="Custom Title" />
           </div>
           <div class="promise">
             CoachKeepers propose des services d’audit, sur mesure pour les
@@ -41,7 +41,7 @@
               structures souhaitant gagner en expertise et créer de la valeur
               dans le domaine des gardiens de but.
             </div>
-            <ContactUs />
+            <ContactUs contactUs="custom" />
           </div>
         </div>
       </div>
@@ -85,4 +85,10 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+//layout
+definePageMeta({
+  layout: "default",
+});
+</script>
+<style lang="scss"></style>

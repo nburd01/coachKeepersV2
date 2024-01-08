@@ -5,18 +5,12 @@
     <div>
       <slot />
     </div>
-    <ContactUsDiv />
+    <ContactUsDiv contactUs="Custom Title" />
     <Footer />
   </div>
 </template>
 
-<style scoped>
-body {
-  background-color: darkblue;
-}
-h2 {
-  color: greenyellow;
-}
+<style lang="scss" scoped>
 .router-link-exact-active {
   color: purple;
 }

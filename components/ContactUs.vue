@@ -1,12 +1,23 @@
 <template>
   <div class="contactUs">
-    <h2 class="contact">Nous contacter</h2>
+    <h2 class="contact">{{ contactUs }}</h2>
     <font-awesome-icon class="rotate45__large" :icon="['fas', 'arrow-right']" />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    contactUs: {
+      type: String,
+      default: "Default Title",
+    },
+  },
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.contact {
+  background-color: aqua;
+}
+</style>

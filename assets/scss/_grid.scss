@@ -68,6 +68,13 @@ $grid-columns: 12;
   }
 }
 
+.gridContact {
+  margin: 0;
+  height: inherit;
+  @include grid;
+  background-color: aqua;
+}
+
 .item > img {
   object-fit: cover;
   width: 100%;

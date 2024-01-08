@@ -1,0 +1,56 @@
+form {
+  display: flex;
+  flex-direction: column;
+  //   background-color: aqua;
+  width: 100%;
+  .fields {
+    // background-color: rgba(0, 0, 255, 0.381);
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      input {
+        line-height: 2;
+        min-height: 32px;
+        vertical-align: top;
+      }
+      // input::placeholder {
+      //   vertical-align: top;
+      //   font-weight: bold;
+      //   opacity: 0.5;
+      //   color: red;
+      // }
+      label {
+        padding-bottom: 0.5em;
+      }
+    }
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    label {
+      padding-bottom: 0.5em;
+    }
+  }
+  #message {
+    display: flex;
+    // background-color: beige;
+    min-height: 20vh;
+  }
+  .btnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  // #message::placeholder {
+  //   display: flex;
+  //   font-weight: bold;
+  //   opacity: 0.5;
+  //   color: red;
+  // }
+  button {
+    width: 20%;
+  }
+}

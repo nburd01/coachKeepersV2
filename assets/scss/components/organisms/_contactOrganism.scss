@@ -1,0 +1,67 @@
+.contactOrganism {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffed3f;
+  width: 100%;
+  min-height: 50vh;
+  &__formDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    // background-color: black;
+    align-items: center;
+    justify-content: center;
+    form {
+      .field-1 {
+        grid-column: span 4;
+        background-color: aqua;
+      }
+      .field-2 {
+        grid-column: span 4;
+        background-color: aqua;
+      }
+      .field-3 {
+        grid-column: span 4;
+        background-color: aqua;
+      }
+      .field-4 {
+        grid-column: span 4;
+        background-color: aqua;
+      }
+
+      button {
+        width: 20%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 720px) {
+  .contactOrganism {
+    &__formDiv {
+      form {
+        // width: 80%;
+        // flex-direction: column;
+        // display: flex;
+        // align-items: center;
+        // .fields {
+        //   display: flex;
+        //   flex-direction: row;
+        //   justify-content: space-between;
+        // }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  contactOrganism {
+    &__formDiv {
+      // form {
+      //   width: 50%;
+      //   background-color: antiquewhite;
+      // }
+    }
+  }
+}

@@ -1,11 +1,13 @@
 <template>
-  <div>Contact</div>
+  <ContactOrganism />
 </template>
 
 <script setup>
+import ContactOrganism from "~/components/ContactOrganism.vue";
+
 //layout
 definePageMeta({
-  layout: "services",
+  layout: "third",
 });
 </script>
 

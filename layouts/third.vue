@@ -1,7 +1,11 @@
 <template>
-  <!-- <div class="headerFirst"> -->
-  <FullPagePic2 />
-  <!-- </div> -->
+  <Header />
+  <!-- Output page content -->
+  <div>
+    <slot />
+  </div>
+
+  <Footer />
 </template>
 
 <script>

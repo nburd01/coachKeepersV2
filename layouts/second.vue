@@ -1,6 +1,10 @@
 <template>
   <div>
-    <Header />
+    <section>
+      <Header />
+      <HeaderSecond />
+    </section>
+
     <!-- Output page content -->
     <div>
       <slot />
@@ -18,6 +22,9 @@ h2 {
   color: greenyellow;
 }
 .router-link-exact-active {
-  color: purple;
+  color: pink;
+}
+nav a {
+  color: aqua;
 }
 </style>

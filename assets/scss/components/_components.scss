@@ -1,7 +1,7 @@
 /*
 |------------------------------
 | Atoms
-|------------------------------   Ò
+|------------------------------  
 */
 @import "./atoms/bubble";
 
@@ -14,6 +14,7 @@
 @import "./molecules/contactUs";
 @import "./molecules/readMore";
 @import "./molecules/promiseDiv";
+@import "./molecules/form";
 
 /*
 |------------------------------
@@ -25,3 +26,10 @@
 @import "./organisms/contactUsDiv";
 @import "./organisms/aboutUsDiv";
 @import "./organisms/footer";
+@import "./organisms/contactOrganism";
+
+/*
+|------------------------------
+| Layouts
+|------------------------------
+*/

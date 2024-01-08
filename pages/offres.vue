@@ -5,7 +5,7 @@
 <script setup>
 //layout
 definePageMeta({
-  layout: "services",
+  layout: "second",
 });
 </script>
 

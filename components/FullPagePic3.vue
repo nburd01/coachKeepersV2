@@ -1,8 +1,9 @@
 <template>
-  <div class="title-main">Qui suis-je</div>
   <div class="gridB">
     <div class="item item-a">
-      <div class="item-a__content"></div>
+      <div class="item-a__content">
+        <div class="title-main">Coachzefkeepers</div>
+      </div>
     </div>
   </div>
 </template>

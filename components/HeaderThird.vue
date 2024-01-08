@@ -1,7 +1,7 @@
 <template>
-  <!-- <div class="headerFirst"> -->
-  <FullPagePic2 />
-  <!-- </div> -->
+  <div class="headerFirst">
+    <FullPagePic3 />
+  </div>
 </template>
 
 <script>

@@ -16,8 +16,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .contact {
-  background-color: aqua;
+  background-color: none;
 }
 </style>

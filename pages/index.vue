@@ -5,16 +5,10 @@
     </section>
     <section class="center">
       <div class="container small">
-        <div class="promiseDiv">
-          <div class="bubbleDiv">
-            <BubbleElement title="Custom Title" />
-          </div>
-          <div class="promise">
-            CoachKeepers propose des services d’audit, sur mesure pour les
-            structures sdouhaitant gagner en expertise et créer de la valeur
-            dans le domaine des gardiens de but.
-          </div>
-        </div>
+        <MTextBubbleHorizontal
+          bubble="test"
+          description="CoachKeepers propose des services d’audit, sur mesure pour les structures souhaitant gagner en expertise et créer de la valeur dans le domaine des gardiens de but."
+        />
       </div>
     </section>
     <section>
@@ -41,7 +35,7 @@
               structures souhaitant gagner en expertise et créer de la valeur
               dans le domaine des gardiens de but.
             </div>
-            <ContactUs contactUs="custom" />
+            <ContactUs contactUs="Notre méthodologie" />
           </div>
         </div>
       </div>
@@ -58,7 +52,7 @@
         <div class="aboutUs">
           <div class="aboutUsDiv__promiseDiv">
             <BubbleElement />
-            <div class="promise">Un fondateur au plus proche des terrains</div>
+            <ATitle2 title="Un fondateur au plus proche des terrains" />
           </div>
           <div class="aboutUsDiv__block">
             <div class="aboutUsDiv__block__offerPic">
@@ -80,7 +74,7 @@
       </div>
     </section>
     <PicsCollage />
-    <!-- <FullPagePic /> -->
+    <!-- <OFullPagePic /> -->
     <!-- <h1>offer</h1> -->
   </div>
 </template>

@@ -72,7 +72,6 @@ $grid-columns: 12;
   margin: 0;
   height: inherit;
   @include grid;
-  background-color: aqua;
 }
 
 .item > img {
